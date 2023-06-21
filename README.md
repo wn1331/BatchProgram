@@ -8,13 +8,13 @@
 
 ![](../header.png)
 
-## 기술 스택
-JAVA
-SPRING BOOT
-Gradle
-Postgresql
-JPA
-Spring-batch
+## 기술 스택
+#JAVA
+#SPRING BOOT
+#Gradle
+#Postgresql
+#JPA
+#Spring-batch
 
 ## 운영 체제
 MAC OS:
