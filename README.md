@@ -3,7 +3,7 @@
 
 [![Spring Version][jvm-image]][jvm-url]
 [![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Gradle Package](https://img.shields.io/badge/gradle-v{version}-blue)](https://gradle.org)
 
 한 두 문단으로 프로젝트 소개 글을 작성합니다.
 
