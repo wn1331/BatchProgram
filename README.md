@@ -1,7 +1,7 @@
 # 프로젝트명
 > 간략한 프로젝트 소개 문구를 작성합니다.
 
-[![Spring Version][spring-image]][spring-url]
+[![Spring Version][java-image]][java-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
