@@ -1,6 +1,6 @@
 # 프로젝트명
 > 간략한 프로젝트 소개 문구를 작성합니다.
-
+[![Java Version](https://img.shields.io/badge/JDK-17-green)](https://spring.io)
 [![Spring Boot](https://img.shields.io/badge/springboot-v{version}-green)](https://spring.io)
 [![Gradle Package](https://img.shields.io/badge/gradle-v{version}-blue)](https://gradle.org)
 
