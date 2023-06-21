@@ -71,4 +71,4 @@ _더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: (https://spring.io/projects/spring-batch)https://spring.io/projects/spring-batch
+[wiki]: https://spring.io/projects/spring-batch
