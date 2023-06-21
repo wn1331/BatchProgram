@@ -1,8 +1,7 @@
 # 프로젝트명
 > 간략한 프로젝트 소개 문구를 작성합니다.
 
-[![Spring Version][jvm-image]][jvm-url]
-[![Build Status][travis-image]][travis-url]
+[![Spring](https://img.shields.io/badge/spring-v{version}-green)](https://spring.io)
 [![Gradle Package](https://img.shields.io/badge/gradle-v{version}-blue)](https://gradle.org)
 
 한 두 문단으로 프로젝트 소개 글을 작성합니다.
