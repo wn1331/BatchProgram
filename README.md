@@ -27,7 +27,7 @@ brew install postgresql
 
 ## 사용 예제
 
-스크린 샷과 코드 예제를 통해 사용 방법을 자세히 설명합니다.
+스크린 샷 & 코드 첨부
 
 _더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 
@@ -71,4 +71,4 @@ _더 많은 예제와 사용법은 [Wiki][wiki]를 참고하세요._
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+[wiki]: (https://spring.io/projects/spring-batch)https://spring.io/projects/spring-batch
