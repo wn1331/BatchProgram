@@ -1,16 +1,16 @@
 # 프로젝트명
 > 간략한 프로젝트 소개 문구를 작성합니다.
-[![Java Version](https://img.shields.io/badge/JDK-17-green)](https://spring.io)
-[![Spring Boot](https://img.shields.io/badge/springboot-v{version}-green)](https://spring.io)
-[![Gradle Package](https://img.shields.io/badge/gradle-v{version}-blue)](https://gradle.org)
+[![Java Version](https://img.shields.io/badge/JDK-17-red)](https://spring.io)
+[![Spring Boot](https://img.shields.io/badge/springboot-3.1.0-green)](https://spring.io)
+[![Gradle Package](https://img.shields.io/badge/gradle-7.6.1-blue)](https://gradle.org)
 
-한 두 문단으로 프로젝트 소개 글을 작성합니다.
+
 
 ![](../header.png)
 
-## 설치 방법
+## 개발 환경
 
-OS X & 리눅스:
+Intellij IDEA:
 
 ```sh
 npm install my-crazy-module --save
