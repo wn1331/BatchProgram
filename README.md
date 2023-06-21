@@ -1,26 +1,29 @@
 # 프로젝트명
-> 간략한 프로젝트 소개 문구를 작성합니다.
+> 배치프로그램 예제(+스케줄러)
 [![Java Version](https://img.shields.io/badge/JDK-17-red)](https://spring.io)
 [![Spring Boot](https://img.shields.io/badge/springboot-3.1.0-green)](https://spring.io)
 [![Gradle Package](https://img.shields.io/badge/gradle-7.6.1-blue)](https://gradle.org)
 
-
+음식의 유통기한이 지나면 데이터의 상태를 변경해주는 배치프로그램 예제.
 
 ![](../header.png)
 
-## 개발 환경
+## 기술 스택
+JAVA
+SPRING BOOT
+Gradle
+Postgresql
+JPA
+Spring-batch
 
-Intellij IDEA:
+## 운영 체제
+MAC OS:
 
+## PostgreSQL 설치
 ```sh
-npm install my-crazy-module --save
+brew install postgresql
 ```
 
-윈도우:
-
-```sh
-edit autoexec.bat
-```
 
 ## 사용 예제
 
