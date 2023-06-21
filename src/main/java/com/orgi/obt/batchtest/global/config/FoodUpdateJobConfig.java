@@ -23,19 +23,24 @@ import org.springframework.transaction.PlatformTransactionManager;
 @RequiredArgsConstructor
 public class FoodUpdateJobConfig {
 
-    //??
+    // Entity Manager Factory를 사용하여 JPA를 통한 데이터베이스 접근을 관리합니다.
     private final EntityManagerFactory entityManagerFactory;
-    //batch에서 job가져옴
+
+    // Spring Batch의 Job을 저장하고 관리하는데 사용되는 JobRepository입니다.
     private final JobRepository jobRepository;
 
+    // 한 번에 처리될 데이터 항목의 수를 설정합니다. 이 숫자가 너무 크면 메모리 이슈를 겪을 수 있고, 너무 작으면 성능이 느려질 수 있습니다.
     private final static int CHUNK_SIZE = 50;
 
+    // "foodUpdateJob"이라는 이름의 Job을 생성하는 Bean입니다.
     @Bean
     public Job foodStatusUpdateJob(Step foodUpdateStep) {
         //JobBuilder에 foodUpdateJob 메시지? 보냄
         return new JobBuilder("foodUpdateJob", jobRepository).start(foodUpdateStep).build();
     }
 
+    // "foodStatusUpdateStep"이라는 이름의 Step을 생성하는 Bean입니다.
+    // Step은 Job을 이루는 주요한 단계로서, Reader, Processor, Writer를 포함합니다
     @Bean
     @JobScope
     public Step FoodStatusUpdateStep(PlatformTransactionManager platformTransactionManager) {
@@ -47,6 +52,7 @@ public class FoodUpdateJobConfig {
             .build();
     }
 
+    // JPA를 사용하여 데이터베이스에서 Food 엔티티를 읽는 Reader를 생성하는 Bean입니다.
     @Bean
     @StepScope
     public JpaCursorItemReader<Food> foodStatusUpdateReader() {
@@ -59,6 +65,8 @@ public class FoodUpdateJobConfig {
             .build();
     }
 
+
+    // JPA를 사용하여 데이터베이스에 Food 엔티티를 쓰는 Writer를 생성하는 Bean입니다.
     @Bean
     @StepScope
     public ItemWriter<Food> foodStatusUpdateWriter() {
@@ -67,6 +75,7 @@ public class FoodUpdateJobConfig {
             .build();
     }
 
+    // Food 엔티티를 처리하는 Processor를 생성하는 Bean입니다.
     @Bean
     public FoodItemProcessor foodStatusUpdateProcessor() {
         return new FoodItemProcessor();
